@@ -106,6 +106,14 @@ function randomPerform(){
     setColor2(times);
     perform(times);
     times++;
+
+    while( Math.random()*3>1){
+        let plusDelayTime = 300*Math.random()
+        setTimeout(setColor2,150+plusDelayTime,times);
+        setTimeout(perform,151+plusDelayTime,times);
+        times++;
+    }
+
 }
 
 //オートモードを停止するための関数
