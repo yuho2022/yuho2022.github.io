@@ -1,0 +1,32 @@
+/* This is a 'style sheet'. 
+It defines how the elements appear when they are rendered by the browser. */
+
+html {
+  height: 100%;
+}
+
+body {
+  align-items: center;
+  display: flex;
+  font-family: monospace;
+  height: 100%;
+  justify-content: center;
+}
+
+button {
+  border-radius: 8px;
+  font-size: 15pt;
+  height: 40px;
+  width: 150px;
+}
+
+#flame{
+  width: 800px;
+  height: 800px;
+  position:relative;
+  border: 2px solid black;
+}
+
+.linklink{
+  margin:20px;
+}
